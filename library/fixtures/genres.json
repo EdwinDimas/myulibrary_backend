@@ -1,0 +1,65 @@
+[
+    {
+        "model": "library.Genre",
+        "pk": 1,
+        "fields": {
+            "name": "Science Fiction"
+        }
+    },
+    {
+        "model": "library.Genre",
+        "pk": 2,
+        "fields": {
+            "name": "Biology"
+        }
+    },
+    {
+        "model": "library.Genre",
+        "pk": 3,
+        "fields": {
+            "name": "Math"
+        }
+    },
+    {
+        "model": "library.Genre",
+        "pk": 4,
+        "fields": {
+            "name": "Astrophysics"
+        }
+    },
+    {
+        "model": "library.Genre",
+        "pk": 5,
+        "fields": {
+            "name": "Anatomy"
+        }
+    },
+    {
+        "model": "library.Genre",
+        "pk": 6,
+        "fields": {
+            "name": "Physics"
+        }
+    },
+    {
+        "model": "library.Genre",
+        "pk": 7,
+        "fields": {
+            "name": "History"
+        }
+    },
+    {
+        "model": "library.Genre",
+        "pk": 8,
+        "fields": {
+            "name": "Science"
+        }
+    },
+    {
+        "model": "library.Genre",
+        "pk": 9,
+        "fields": {
+            "name": "Medicine"
+        }
+    }
+]

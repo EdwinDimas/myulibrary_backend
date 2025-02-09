@@ -1,13 +1,20 @@
 from django.db import models
 from django.contrib.auth.models import User
 
+class Genre(models.Model):
+    name = models.CharField(max_length=100)
+
+class Author(models.Model):
+    name = models.CharField(max_length=100)
+
 class Book(models.Model):
     name = models.CharField(max_length=255)
-    genre = models.CharField(max_length=100)
-    author = models.CharField(max_length=255)
+    genre = models.ForeignKey(Genre, on_delete=models.RESTRICT)
+    author = models.ForeignKey(Author, on_delete=models.RESTRICT)
     description = models.TextField()
     published_year = models.CharField(max_length=4)
     stock = models.PositiveIntegerField()
+    url = models.CharField(max_length=255)
 
     def __str__(self):
         return self.name

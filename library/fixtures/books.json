@@ -1,0 +1,340 @@
+[
+    {
+        "model": "library.book",
+        "pk": 1,
+        "fields": {
+            "name": "A Brief History of Time",
+            "genre": 4,
+            "author": 2,
+            "description": "Stephen Hawking's landmark volume on the nature of space and time.",
+            "published_year": "1988",
+            "stock": 15,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41X8AJ6F5TL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 2,
+        "fields": {
+            "name": "Cosmos",
+            "genre": 1,
+            "author": 3,
+            "description": "Carl Sagan's exploration of the universe and our place within it.",
+            "published_year": "1980",
+            "stock": 12,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41tYdOZ0VFL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 3,
+        "fields": {
+            "name": "The Selfish Gene",
+            "genre": 2,
+            "author": 4,
+            "description": "Richard Dawkins' influential work on evolutionary biology.",
+            "published_year": "1976",
+            "stock": 10,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41K+5c7Z+QL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 4,
+        "fields": {
+            "name": "Guns, Germs, and Steel",
+            "genre": 7,
+            "author": 5,
+            "description": "Jared Diamond examines the factors that influenced the development of civilizations.",
+            "published_year": "1997",
+            "stock": 8,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/51M5+4e4HnL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 5,
+        "fields": {
+            "name": "The Elegant Universe",
+            "genre": 6,
+            "author": 6,
+            "description": "Brian Greene's introduction to string theory and the quest for a unified theory.",
+            "published_year": "1999",
+            "stock": 9,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41+e3refnZL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 6,
+        "fields": {
+            "name": "The Origin of Species",
+            "genre": 2,
+            "author": 8,
+            "description": "Charles Darwin's foundational work on evolutionary biology.",
+            "published_year": "1859",
+            "stock": 7,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41+1cZb1+ZL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 7,
+        "fields": {
+            "name": "The Demon-Haunted World",
+            "genre": 8,
+            "author": 3,
+            "description": "Carl Sagan's defense of scientific thought and skepticism.",
+            "published_year": "1995",
+            "stock": 11,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41N4F4+1ZFL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 8,
+        "fields": {
+            "name": "Pale Blue Dot",
+            "genre": 8,
+            "author": 3,
+            "description": "Carl Sagan's reflection on humanity's place in the universe.",
+            "published_year": "1994",
+            "stock": 10,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41J8p1f5ZFL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 9,
+        "fields": {
+            "name": "The God Delusion",
+            "genre": 8,
+            "author": 4,
+            "description": "Richard Dawkins' critique of religion and advocacy for atheism.",
+            "published_year": "2006",
+            "stock": 14,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41N4F4+1ZFL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 10,
+        "fields": {
+            "name": "The Immortal Life of Henrietta Lacks",
+            "genre": 9,
+            "author": 9,
+            "description": "Rebecca Skloot's investigation into the life of Henrietta Lacks and the HeLa cells.",
+            "published_year": "2010",
+            "stock": 13,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41N4F4+1ZFL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 11,
+        "fields": {
+            "name": "The Man Who Mistook His Wife for a Hat",
+            "genre": 9,
+            "author": 7,
+            "description": "Oliver Sacks' collection of neurological case studies.",
+            "published_year": "1985",
+            "stock": 9,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41N4F4+1ZFL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 12,
+        "fields": {
+            "name": "The Double Helix",
+            "genre": 2,
+            "author": 7,
+            "description": "James D. Watson's personal account of the discovery of the DNA structure.",
+            "published_year": "1968",
+            "stock": 8,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41N4F4"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 13,
+        "fields": {
+            "name": "Surely You're Joking, Mr. Feynman!",
+            "genre": 6,
+            "author": 7,
+            "description": "Richard P. Feynman’s memoir filled with humorous and insightful stories from his life as a physicist.",
+            "published_year": "1985",
+            "stock": 12,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/51EstVXM1UL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 14,
+        "fields": {
+            "name": "A Short History of Nearly Everything",
+            "genre": 7,
+            "author": 1,
+            "description": "Bill Bryson’s exploration of scientific discoveries across history.",
+            "published_year": "2003",
+            "stock": 10,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/51gTzcpShFL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 15,
+        "fields": {
+            "name": "The Fabric of the Cosmos",
+            "genre": 6,
+            "author": 6,
+            "description": "Brian Greene's book on space, time, and reality.",
+            "published_year": "2004",
+            "stock": 9,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/51hdB5ArpaL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 16,
+        "fields": {
+            "name": "The Universe in a Nutshell",
+            "genre": 4,
+            "author": 2,
+            "description": "Stephen Hawking’s follow-up to 'A Brief History of Time', explaining complex physics concepts.",
+            "published_year": "2001",
+            "stock": 8,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/51SRDq3A8FL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 17,
+        "fields": {
+            "name": "The Ancestor's Tale",
+            "genre": 2,
+            "author": 4,
+            "description": "Richard Dawkins' journey through evolution from the present day to the origins of life.",
+            "published_year": "2004",
+            "stock": 7,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/51dAXrHZXeL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 18,
+        "fields": {
+            "name": "The Third Chimpanzee",
+            "genre": 7,
+            "author": 5,
+            "description": "Jared Diamond explores human evolution and what makes us unique among animals.",
+            "published_year": "1991",
+            "stock": 11,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/51bnXvFpkBL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 19,
+        "fields": {
+            "name": "Astrophysics for People in a Hurry",
+            "genre": 4,
+            "author": 6,
+            "description": "Neil deGrasse Tyson's concise and engaging introduction to astrophysics.",
+            "published_year": "2017",
+            "stock": 13,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/51bR01XVL3L._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 20,
+        "fields": {
+            "name": "The Vital Question",
+            "genre": 2,
+            "author": 9,
+            "description": "Nick Lane's exploration of how life evolved on Earth.",
+            "published_year": "2015",
+            "stock": 10,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/51K1v9-zjwL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 21,
+        "fields": {
+            "name": "Sapiens: A Brief History of Humankind",
+            "genre": 7,
+            "author": 5,
+            "description": "Yuval Noah Harari’s sweeping narrative of human history from the Stone Age to modern times.",
+            "published_year": "2011",
+            "stock": 14,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41tu9pp-lUL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 22,
+        "fields": {
+            "name": "The Emperor of All Maladies",
+            "genre": 9,
+            "author": 9,
+            "description": "A biography of cancer and the battle against it.",
+            "published_year": "2010",
+            "stock": 9,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/51X8F8JzRrL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 23,
+        "fields": {
+            "name": "On the Origin of Species",
+            "genre": 2,
+            "author": 8,
+            "description": "Charles Darwin's groundbreaking work on evolution.",
+            "published_year": "1859",
+            "stock": 8,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/51TDa6LXYxL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 24,
+        "fields": {
+            "name": "Black Holes and Baby Universes",
+            "genre": 4,
+            "author": 2,
+            "description": "Stephen Hawking’s essays on black holes, physics, and the universe.",
+            "published_year": "1993",
+            "stock": 12,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41h7kfnz3tL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 25,
+        "fields": {
+            "name": "Death by Black Hole",
+            "genre": 4,
+            "author": 6,
+            "description": "Neil deGrasse Tyson’s collection of essays on astrophysics.",
+            "published_year": "2007",
+            "stock": 10,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41p0ROXulLL._SX331_BO1,204,203,200_.jpg"
+        }
+    },
+    {
+        "model": "library.book",
+        "pk": 26,
+        "fields": {
+            "name": "Physics of the Impossible",
+            "genre": 6,
+            "author": 6,
+            "description": "Michio Kaku explores scientific concepts that seem impossible today but may be possible in the future.",
+            "published_year": "2008",
+            "stock": 9,
+            "url": "https://images-na.ssl-images-amazon.com/images/I/41lISL6JSSL._SX331_BO1,204,203,200_.jpg"
+        }
+    }
+]

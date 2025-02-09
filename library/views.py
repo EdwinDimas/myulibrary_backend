@@ -4,8 +4,8 @@ from django.db.models import Q
 from rest_framework.response import Response
 from rest_framework.decorators import api_view
 from rest_framework import status
-from .models import Book, Request, StatusDetail, Status
-from .serializers import BookSerializer, RequestSerializer, StatusDetailSerializer
+from .models import Author, Book, Genre, Request, StatusDetail, Status
+from .serializers import AuthorSerializer, BookSerializer, GenreSerializer, RequestSerializer, StatusDetailSerializer
 from django.contrib.auth.hashers import make_password
 
 # Crear uno o más libros
@@ -27,6 +27,19 @@ def list_books(request):
     books = Book.objects.all()
     serializer = BookSerializer(books, many=True)
     return Response(serializer.data)
+
+@api_view(['GET'])
+def list_genres(request):
+    genres = Genre.objects.all()
+    serializer = GenreSerializer(genres, many=True)
+    return Response(serializer.data)
+
+@api_view(['GET'])
+def list_authors(request):
+    authors = Author.objects.all()
+    serializer = AuthorSerializer(authors, many=True)
+    return Response(serializer.data)
+
 
 # Buscar libros por nombre, género y/o autor
 @api_view(['GET'])

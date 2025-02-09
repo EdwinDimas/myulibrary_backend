@@ -1,0 +1,72 @@
+[
+    {
+        "model": "library.Author",
+        "pk": 1,
+        "fields": {
+            "name": "Bill Bryson"
+        }
+    },
+    {
+        "model": "library.Author",
+        "pk": 2,
+        "fields": {
+            "name": "Stephen Hawking"
+        }
+    },
+    {
+        "model": "library.Author",
+        "pk": 3,
+        "fields": {
+            "name": "Carl Sagan"
+        }
+    },
+    {
+        "model": "library.Author",
+        "pk": 4,
+        "fields": {
+            "name": "Richard Dawkings"
+        }
+    },
+    {
+        "model": "library.Author",
+        "pk": 5,
+        "fields": {
+            "name": "jared Diamond"
+        }
+    },
+    {
+        "model": "library.Author",
+        "pk": 6,
+        "fields": {
+            "name": "Michio Kaku"
+        }
+    },
+    {
+        "model": "library.Author",
+        "pk": 7,
+        "fields": {
+            "name": "Richard P. Feynman"
+        }
+    },
+    {
+        "model": "library.Author",
+        "pk": 8,
+        "fields": {
+            "name": "Charles Darwin"
+        }
+    },
+    {
+        "model": "library.Author",
+        "pk": 9,
+        "fields": {
+            "name": "Brian Greene"
+        }
+    },
+    {
+        "model": "library.Author",
+        "pk": 9,
+        "fields": {
+            "name": "Mary Roach"
+        }
+    }
+]
