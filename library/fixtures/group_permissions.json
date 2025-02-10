@@ -1,0 +1,187 @@
+[
+    {
+      "model": "auth.group_permissions",
+      "pk": 1,
+      "fields": {
+        "group": 1,
+        "permission": 1
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 2,
+      "fields": {
+        "group": 1,
+        "permission": 2
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 3,
+      "fields": {
+        "group": 1,
+        "permission": 3
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 4,
+      "fields": {
+        "group": 1,
+        "permission": 4
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 5,
+      "fields": {
+        "group": 1,
+        "permission": 5
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 6,
+      "fields": {
+        "group": 1,
+        "permission": 6
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 7,
+      "fields": {
+        "group": 1,
+        "permission": 7
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 8,
+      "fields": {
+        "group": 1,
+        "permission": 8
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 9,
+      "fields": {
+        "group": 1,
+        "permission": 9
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 10,
+      "fields": {
+        "group": 1,
+        "permission": 10
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 11,
+      "fields": {
+        "group": 1,
+        "permission": 11
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 12,
+      "fields": {
+        "group": 2,
+        "permission": 1
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 13,
+      "fields": {
+        "group": 2,
+        "permission": 2
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 14,
+      "fields": {
+        "group": 2,
+        "permission": 3
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 15,
+      "fields": {
+        "group": 2,
+        "permission": 4
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 16,
+      "fields": {
+        "group": 2,
+        "permission": 5
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 17,
+      "fields": {
+        "group": 2,
+        "permission": 6
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 18,
+      "fields": {
+        "group": 1,
+        "permission": 21
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 19,
+      "fields": {
+        "group": 1,
+        "permission": 34
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 20,
+      "fields": {
+        "group": 1,
+        "permission": 38
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 21,
+      "fields": {
+        "group": 1,
+        "permission": 42
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 22,
+      "fields": {
+        "group": 1,
+        "permission": 46
+      }
+    },
+    {
+      "model": "auth.group_permissions",
+      "pk": 23,
+      "fields": {
+        "group": 1,
+        "permission": 30
+      }
+    }
+  ]
+  

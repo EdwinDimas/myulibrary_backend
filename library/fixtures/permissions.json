@@ -1,0 +1,102 @@
+[
+    {
+      "model": "auth.permission",
+      "pk": 1,
+      "fields": {
+        "name": "Can list books",
+        "content_type": 10,
+        "codename": "list_books"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 2,
+      "fields": {
+        "name": "Can create request",
+        "content_type": 11,
+        "codename": "create_request"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 3,
+      "fields": {
+        "name": "Can list authors",
+        "content_type": 7,
+        "codename": "list_authors"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 4,
+      "fields": {
+        "name": "Can list genres",
+        "content_type": 8,
+        "codename": "list_genres"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 5,
+      "fields": {
+        "name": "Can list statuses",
+        "content_type": 9,
+        "codename": "list_status"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 6,
+      "fields": {
+        "name": "Can list status details",
+        "content_type": 12,
+        "codename": "list_status_details"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 7,
+      "fields": {
+        "name": "Can add books",
+        "content_type": 10,
+        "codename": "add_books"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 8,
+      "fields": {
+        "name": "Can add authors",
+        "content_type": 7,
+        "codename": "add_authors"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 9,
+      "fields": {
+        "name": "Can add genres",
+        "content_type": 8,
+        "codename": "add_genres"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 10,
+      "fields": {
+        "name": "Can add statuses",
+        "content_type": 9,
+        "codename": "add_statuses"
+      }
+    },
+    {
+      "model": "auth.permission",
+      "pk": 11,
+      "fields": {
+        "name": "Can add status details",
+        "content_type": 12,
+        "codename": "add_statusdetails"
+      }
+    }
+  ]
+  

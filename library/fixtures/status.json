@@ -1,0 +1,34 @@
+[
+    {
+        "model": "library.status",
+        "pk": 1,
+        "fields": {
+            "name": "REQUESTED",
+            "code": "RQTD"
+        }
+    },
+    {
+        "model": "library.status",
+        "pk": 2,
+        "fields": {
+            "name": "APPROVED",
+            "code": "APVD"
+        }
+    },
+    {
+        "model": "library.status",
+        "pk": 3,
+        "fields": {
+            "name": "DENIED",
+            "code": "DNID"
+        }
+    },
+    {
+        "model": "library.status",
+        "pk": 4,
+        "fields": {
+            "name": "RETURNED",
+            "code": "RTND"
+        }
+    }
+]

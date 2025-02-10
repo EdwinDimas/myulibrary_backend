@@ -11,6 +11,9 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
+import cloudinary
+import cloudinary.uploader
+import cloudinary.api
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -38,8 +41,12 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'rest_framework',
+    'rest_framework.authtoken',
+    'dj_rest_auth',
     'library',
+    'authusers',
     'corsheaders',
+    "rest_framework_simplejwt.token_blacklist",
 ]
 
 MIDDLEWARE = [
@@ -136,4 +143,52 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:5173',
+    "http://localhost:3000",
+    'http://127.0.0.1:5173',
 ]
+
+CSRF_TRUSTED_ORIGINS = [
+    'http://localhost:5173',  # The URL of your frontend
+    'http://127.0.0.1:5173',  # Localhost equivalent if needed
+]
+
+CORS_ALLOW_CREDENTIALS = True
+
+
+CLOUDINARY_STORAGE = {
+    'CLOUD_NAME': 'dlmd0crcs',
+    'API_KEY': '337234582424543',
+    'API_SECRET': 'RF9CZqxiIghsgldF3qSk855yoh0'
+}
+
+cloudinary.config(
+    cloud_name=CLOUDINARY_STORAGE['CLOUD_NAME'],
+    api_key=CLOUDINARY_STORAGE['API_KEY'],
+    api_secret=CLOUDINARY_STORAGE['API_SECRET']
+)
+
+
+REST_AUTH = {
+    'USE_JWT': True,
+    'JWT_AUTH_COOKIE': 'myulibrary_cookie',
+    'JWT_AUTH_REFRESH_COOKIE': 'myulibrary_refresh_cookie'
+}
+
+REST_FRAMEWORK = {
+    "DEFAULT_AUTHENTICATION_CLASSES": (
+        "dj_rest_auth.jwt_auth.JWTCookieAuthentication",
+    )
+}
+
+
+CSRF_COOKIE_NAME = "csrftoken"
+SESSION_COOKIE_SAMESITE = 'None'  # Allow cross-site cookies
+CSRF_COOKIE_SAMESITE = 'None'
+SESSION_COOKIE_SECURE = False
+CSRF_COOKIE_SECURE = False
+CORS_ALLOW_CREDENTIALS = True
+
+REST_USE_JWT = True  # Enables JWT
+JWT_AUTH_COOKIE = "myulibrary_cookie"  # Name of the access token cookie
+JWT_AUTH_REFRESH_COOKIE = "myulibrary_refresh_cookie"
+
